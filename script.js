@@ -7,7 +7,7 @@ const imageUrls = [
 let currentIndex = 0;
 
 function showImage(index) {
-  const imageElement = document.getElementById("carousel-image");
+  const imageElement = document.getElementById("rotatingImage");
   imageElement.src = imageUrls[index];
 }
 
